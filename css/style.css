@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ /* Utilità */
+.container{
+    max-width: 1010px;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    background-color: rgb(15, 15, 22);
+    margin: 15px;
+}
+
+.content{
+    color: white;
+}
+
+.content img{
+    width: 30%;
+    float: left;
+    padding: -10px;
+}
+/* Fine Utilità */
+
+h1{
+   color: rgb(229, 48, 113);
+   font-family: 'Fredoka', sans-serif;
+   font-weight: 700;
+   margin: 2.5rem;
+}
+
+.did-titolo{
+    margin: 2.5rem;
+}
+
+.link{
+    color: rgb(117, 189, 183);
+}
