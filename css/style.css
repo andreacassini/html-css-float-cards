@@ -6,7 +6,7 @@
 
  /* Utilità */
 .container{
-    max-width: 1010px;
+    max-width: 1110px;
     margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
@@ -18,20 +18,22 @@
 
 .col{
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 24px);
+    margin: 12px;
     background-color: rgb(15, 15, 22);
-    margin: 15px;
 }
 
 .content{
     color: white;
+    text-align: left;
 }
 
 .content img{
-    width: 30%;
+    width: 34%;
     float: left;
-    padding: -10px;
+    padding-right: 15px;
 }
+
 /* Fine Utilità */
 
 h1{
@@ -47,4 +49,9 @@ h1{
 
 .link{
     color: rgb(117, 189, 183);
+}
+
+.text{
+    line-height: 25px;
+    padding: 10px;
 }
